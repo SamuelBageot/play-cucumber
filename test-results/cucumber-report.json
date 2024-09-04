@@ -1,0 +1,50 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "navigation;it-should-open-the-correct-page",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "It should open the correct page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I navigate to the \"About Reddit\" page",
+            "match": {
+              "location": "src/test/steps/nav/navigation.test.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3530764938
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I should see the correct url",
+            "match": {
+              "location": "src/test/steps/nav/navigation.test.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42883757
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "navigation",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Navigation",
+    "tags": [],
+    "uri": "src/test/features/nav/navigation.feature"
+  }
+]
